@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background: url(imagens/pexels-vishnu-r-nair-1105666.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.sound {
+    font-size: 10px;
+    color: #ffc600;
+
+}
+
+kbd {
+    display: block;
+    font-size: 40px;
+}
+
+.keys { 
+    min-height: 100vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    padding: 150px;
+}
+
+
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid rgb(15, 15, 15);
+    text-shadow: 0 0 5px black;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #81808056;
+    width: 80px;
+    transition: all 0.07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #3cff00;
+    box-shadow: 0 0 10px #3cff00;
+}
+
